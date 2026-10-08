@@ -69,7 +69,7 @@ def validate_december(frame: pd.DataFrame) -> pd.DataFrame:
         fail("December predictions must keep the original seven columns and column order")
 
     result = frame.copy()
-    result["date"] = pd.to_datetime(result["date"], errors="coerce")
+    result["date"] = pd.to_datetime(result["date"], format="mixed", dayfirst=True, errors="coerce")
     if result["date"].isna().any():
         fail("December predictions contains invalid dates")
     result["distance"] = numeric_series(result, "distance", "December predictions")
