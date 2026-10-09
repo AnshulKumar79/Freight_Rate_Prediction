@@ -6,7 +6,7 @@ This repository contains the solution for the Freight Rate Prediction Challenge.
 ##LOOM_VIDEO_LINK: [https://www.loom.com/share/488518803cbe45119d1173852c903ef1]
 
 ## Repository Structure
-```
+```text
 .
 ├── data/
 │   ├── train_test.csv
