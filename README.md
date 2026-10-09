@@ -3,9 +3,10 @@
 
 ## Overview
 This repository contains the solution for the Freight Rate Prediction Challenge. The objective is to predict freight load rates based on historical shipping data. The end-to-end machine learning pipeline, including exploratory data analysis, data cleaning, feature engineering, and inference, is developed using LightGBM and provided as a Google Colab Notebook. A serialized version of the trained model is also included.
+##LOOM_VIDEO_LINK: [https://www.loom.com/share/488518803cbe45119d1173852c903ef1]
 
 ## Repository Structure
-```text
+```
 .
 ├── data/
 │   ├── train_test.csv
